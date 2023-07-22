@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif; /* Optional: Setting font-family */
+}
+
+/* Add custom styles below */
+
+.container {
+    margin-top: 20px;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 15px 0;
+}
+
+.menu-section {
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+}
+
+.back-to-top {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #337ab7;
+}
+
+.back-to-top:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav.visible-xs {
+        display: block;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #000;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .menu-section {
+        height: auto; /* Remove the height set to cause scrolling on mobile view */
+    }
+}
